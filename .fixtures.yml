@@ -2,5 +2,7 @@
 # See https://github.com/puppetlabs/puppetlabs_spec_helper#using-fixtures for details
 ---
 fixtures:
-  forge_modules:
-#     stdlib: "puppetlabs/stdlib"
+  repositories:
+      first_module:
+        repo: "https://github.com/maxenced/first_module.git"
+
